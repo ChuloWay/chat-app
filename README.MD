@@ -2,6 +2,11 @@
 
 This repository contains the full-stack implementation of a chat application, including both the frontend and backend components. The project is built using React for the frontend and NestJS for the backend, with real-time messaging functionality powered by Socket.IO.
 
+![Auth Screenshot](./assets/auth.png)
+![Chat App Demo](./assets/demo.gif)
+![Chat Screenshot](./assets/chat.png)
+
+
 ## Project Structure
 
 The repository is organized into two main directories:
@@ -37,17 +42,22 @@ Ensure the following are installed locally:
 3. [NPM](https://www.npmjs.com/)
 4. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account for database setup
 
-### Setup
+## Setup and Installation
 
-#### Clone the Repository
+1. Clone the repository:
 
-```bash
-git clone https://github.com/chuloWay/chat-app
-```
-Navigate to the Folder
+   ```bash
+   git clone https://github.com/chuloWay/chat-app.git
+   ```
 
-```bash
-cd chat-app
-```
+2. Install Dependencies
+
+    `npm run build`
+
+3. Start App
+
+    `npm run start`
+
+
 
 ### Thank You

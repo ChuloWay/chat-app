@@ -4,7 +4,7 @@ import { AuthProvider } from "./context/AuthProvider";
 import { SocketProvider } from "./context/SocketContext";
 import ChatPage from "./components/chat/ChatPage";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
-import Auth from "../src/components/auth/Auth"
+import Auth from "./components/auth/Auth"
 import AuthContext from "./context/AuthProvider";
 
 const PrivateRoute = ({ element }) => {
