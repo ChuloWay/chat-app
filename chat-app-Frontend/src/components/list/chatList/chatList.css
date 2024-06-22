@@ -1,0 +1,86 @@
+.chatList {
+    width: 416px; /* Set width to match Figma design */
+    height: 806px; /* Set height to match Figma design */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    border-left: 1px solid #dddddd35; /* Left border */
+    border-right: 1px solid #dddddd35; /* Right border */
+    gap: 0px; /* Set gap to 0 to match Figma design */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Adjusted gap to match Figma design */
+    padding: 12px 16px; /* Adjusted padding to match Figma design */
+}
+
+.searchBar {
+    flex: 1;
+    height: 50px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+
+    input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: black;
+        margin-right: 20px;
+        flex: 1;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+        top: 8px;
+        left: 8px;
+        margin-left: 20px;
+    }
+}
+
+/* .add {
+    width: fit-content;
+    height: 16px;
+    background-color: rgba(17, 25, 40, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+} */
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Adjusted gap to match Figma design */
+    padding: 12px 16px; /* Adjusted padding to match Figma design */
+    width: 100%; /* Ensure item fills the width of .chatList */
+    height: 72px; /* Set height to match Figma design */
+    cursor: pointer;
+    border-bottom: 1px solid #c2c9d0;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .texts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        span {
+            font-weight: 500;
+            color: #011627;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            color: #707991;
+        }
+    }
+}
